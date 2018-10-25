@@ -1,5 +1,5 @@
 # Overview
-Used the NYTimes Best Sellers Books API to load a list of best selling books in a collection view. The user is able to select different categories to view its best selling books. Selecting a book segues to a detail view controller where the user can see more information about the book and favorite the book. Favoriting a book saves it to the user's phone. The user should be able to view all the books that they have favorited. Favorites should persist between launches. The user is able to use a Settings page to set the default category that will be loaded in the list of recent best sellers.
+Used the NYTimes Best Sellers Books API to load a list of best selling books in a collection view. The user is able to select different categories to view its best selling books. Selecting a book segues to a detail view controller where the user can see more information about the book and favorite the book. Favoriting a book saves it to the user's phone. The user should be able to view all the books that they have favorited. Favorites persists between launches. The user is able to use a Settings page to set the default category that will be loaded in the list of recent best sellers.
 
 
 # Detailed Outline
