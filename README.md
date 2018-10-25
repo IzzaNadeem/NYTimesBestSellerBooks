@@ -1,13 +1,10 @@
-# Unit 4 Week 1 HW
-
 # Overview
-
-Use the NYTimes Best Sellers Books API to load a list of best selling books in a collection view.   The user should be able to select different categories to view its best selling books.  Selecting a book should segue to a detail view controller where the user can see more information about the book and favorite the book.  Favoriting a book should save it to the user's phone.  The user should be able to view all the books that they have favorited.  Favorites should persist between launches.  The user should be able to use a Settings page to set the default category that will be loaded in the list of recent best sellers.
+Used the NYTimes Best Sellers Books API to load a list of best selling books in a collection view. The user is able to select different categories to view its best selling books. Selecting a book segues to a detail view controller where the user can see more information about the book and favorite the book. Favoriting a book saves it to the user's phone. The user should be able to view all the books that they have favorited. Favorites should persist between launches. The user is able to use a Settings page to set the default category that will be loaded in the list of recent best sellers.
 
 
 # Detailed Outline
 
-Your app should have (3) tabs
+This app has (3) tabs
 
 1. Best Sellers
 2. Favorites
@@ -15,7 +12,7 @@ Your app should have (3) tabs
 
 ## Best Sellers
 
-This view should have a:
+The view has:
 
 - Collection View
 - Picker View
@@ -59,9 +56,9 @@ There are two endpoints for this app:
 - NYT API
 - Google Books API
 
-You will need to create an [API key](http://developer.nytimes.com/signup) for the NYT API in order to make requests.
+Created an [API key](http://developer.nytimes.com/signup) for the NYT API in order to make requests.
 
-You will need to create an [API Key](https://developers.google.com/books/docs/v1/using#APIKey) for the Google API in order to not get rate limited.  You do **not** need to use OAuth.  Follow the instructions in the "Other" section.
+Created an [API Key](https://developers.google.com/books/docs/v1/using#APIKey) for the Google API in order to not get rate limited.
 
 **Endpoint 1: Categories**
 
